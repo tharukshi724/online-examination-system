@@ -137,7 +137,7 @@ public class midExamService {
     }
 
 
-
+//
     public static boolean updateQuestions(Mid mid) throws SQLException {
         boolean rowUpdated = false;
         try {

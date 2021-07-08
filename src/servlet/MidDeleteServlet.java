@@ -15,6 +15,7 @@ import java.util.logging.Logger;
 @WebServlet("/MidDeleteServlet")
 public class MidDeleteServlet extends HttpServlet {
 
+    //
     public static final Logger logger = Logger.getLogger(MidDeleteServlet.class.getName());
     private midExamService sv;
 

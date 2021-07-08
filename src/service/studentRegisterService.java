@@ -14,7 +14,7 @@ public class studentRegisterService {
     public static Connection connection;
 
     public void registerUser(student st){
-
+//
          try{
              connection  = DBConnection.getConnection();
 

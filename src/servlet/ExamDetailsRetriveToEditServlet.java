@@ -13,7 +13,7 @@ import java.util.logging.Logger;
 
 @WebServlet("/ExamDetailsRetriveToEditServlet")
 public class ExamDetailsRetriveToEditServlet extends HttpServlet {
-
+//
     public static final Logger logger = Logger.getLogger(ExamDetailsRetriveToEditServlet.class.getName());
     private examDetailsService exService;
 

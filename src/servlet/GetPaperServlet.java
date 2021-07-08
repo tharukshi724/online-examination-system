@@ -15,6 +15,7 @@ import java.util.logging.Logger;
 @WebServlet("/GetPaperServlet")
 public class GetPaperServlet extends HttpServlet {
 
+    //
     public static final Logger logger = Logger.getLogger(GetPaperServlet.class.getName());
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
                   String subject = request.getParameter("subject");

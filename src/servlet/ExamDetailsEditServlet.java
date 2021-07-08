@@ -16,7 +16,7 @@ import service.examDetailsService;
 
 @WebServlet("/ExamDetailsEditServlet")
 public class ExamDetailsEditServlet extends HttpServlet {
-
+//
     public static final Logger logger = Logger.getLogger(ExamDetailsEditServlet.class.getName());
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         int examId = Integer.parseInt(request.getParameter("examId"));

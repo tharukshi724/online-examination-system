@@ -15,7 +15,7 @@ import java.util.logging.Logger;
 
 @WebServlet("/ExamDetailsRetriveServlet")
 public class ExamDetailsRetriveServlet extends HttpServlet {
-
+//
     public static final Logger logger = Logger.getLogger(ExamDetailsRetriveServlet.class.getName());
 
     private static final long serialVersionUID = 1L;

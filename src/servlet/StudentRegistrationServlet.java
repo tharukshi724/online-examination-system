@@ -23,7 +23,7 @@ public class StudentRegistrationServlet extends HttpServlet {
     studentRegisterService st = new studentRegisterService();
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String firstname = request.getParameter("firstname");
-
+//
         String lastname = request.getParameter("lastname");
 
         String studentId= request.getParameter("studentId");

@@ -16,7 +16,7 @@ public class RetriveFinalPaper {
 
     static Connection connection;
     public static List<Final> getPaper(String subject) throws SQLException, ClassNotFoundException {
-
+//
         List<Final> list2 = new ArrayList<>();
         connection = DBConnection.getConnection();
         PreparedStatement preparedStatement = connection.prepareStatement("SELECT  * from Final where subject=? ");

@@ -19,7 +19,7 @@ public class MidRetriveToEditServlet extends HttpServlet {
 
     public static final Logger logger = Logger.getLogger(MidRetriveToEditServlet.class.getName());
     private midExamService mids;
-
+//
     public void init() {
         this.mids = new midExamService();
     }

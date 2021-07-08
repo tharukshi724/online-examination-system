@@ -15,6 +15,7 @@ import java.util.logging.Logger;
 @WebServlet("/FinalDeleteServlet")
 public class FinalDeleteServlet extends HttpServlet {
 
+    //
     public static final Logger logger = Logger.getLogger(FinalDeleteServlet.class.getName());
     private FinalExamService sv;
     public FinalDeleteServlet() {

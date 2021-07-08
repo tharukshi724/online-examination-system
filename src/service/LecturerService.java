@@ -171,7 +171,7 @@ public class LecturerService {
         return lec;
 
     }
-
+//
     private static void printSQLException(SQLException ex) {
         for(Throwable e:ex)
             if (e instanceof SQLException) {

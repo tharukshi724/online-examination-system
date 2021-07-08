@@ -16,7 +16,7 @@ public class ExamDetailsDeleteServlet extends HttpServlet {
 
     public static final Logger logger = Logger.getLogger(ExamDetailsDeleteServlet.class.getName());
     private examDetailsService sv;
-
+//
     public ExamDetailsDeleteServlet() {
         super();
         sv = new  examDetailsService();

@@ -10,6 +10,7 @@ public class examDetails {
     String type;
     String lecturer;
 
+    //
     public examDetails(int examId, String examName, String subject, Date date,String type, String lecturer) {
         this.examId = examId;
         this.examName = examName;

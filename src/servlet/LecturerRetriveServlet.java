@@ -16,6 +16,7 @@ import java.util.logging.Logger;
 @WebServlet("/LecturerRetriveServlet")
 public class LecturerRetriveServlet extends HttpServlet {
 
+    //
     public static final Logger logger = Logger.getLogger(LecturerRetriveServlet.class.getName());
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 

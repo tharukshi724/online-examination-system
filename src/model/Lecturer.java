@@ -11,7 +11,7 @@ public class Lecturer {
     String username;
     String password;
 
-
+ //
     public Lecturer(int userId, String staffId, String NIC, String name, String section, String email, String username, String password) {
         this.userId = userId;
         this.staffId = staffId;

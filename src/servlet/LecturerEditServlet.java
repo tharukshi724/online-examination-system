@@ -15,6 +15,7 @@ import java.util.logging.Logger;
 @WebServlet("/LecturerEditServlet")
 public class LecturerEditServlet extends HttpServlet {
 
+    //
     public static final Logger logger = Logger.getLogger(LecturerEditServlet.class.getName());
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
          int userId = Integer.parseInt(request.getParameter("userId"));

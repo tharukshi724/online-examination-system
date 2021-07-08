@@ -14,6 +14,7 @@ import java.util.logging.Logger;
 @WebServlet("/LectureRetriveToEditServlet")
 public class LectureRetriveToEditServlet extends HttpServlet {
 
+    //
     private LecturerService LecRec1;
     public void init() {
         this.LecRec1  = new LecturerService();

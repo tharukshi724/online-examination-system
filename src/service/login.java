@@ -14,7 +14,7 @@ public class login {
     public static final Logger logger = Logger.getLogger(login.class.getName());
 private static Connection connection;
     public boolean adminlogin(String username,String password){
-
+//
         boolean st = false;
         try{
             connection = DBConnection.getConnection();

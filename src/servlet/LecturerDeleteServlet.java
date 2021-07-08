@@ -14,6 +14,7 @@ import java.util.logging.Logger;
 @WebServlet("/LecturerDeleteServlet")
 public class LecturerDeleteServlet extends HttpServlet {
 
+    //
     public static final Logger logger = Logger.getLogger(LecturerDeleteServlet.class.getName());
     private LecturerService lecturerService;
 

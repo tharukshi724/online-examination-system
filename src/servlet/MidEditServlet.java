@@ -26,7 +26,7 @@ public class MidEditServlet extends HttpServlet {
         String subject = request.getParameter("subject");
         String question = request.getParameter("question");
 
-
+//
         String ans1 = request.getParameter("ans1");
         String ans2 = request.getParameter("ans2");
         String ans3 = request.getParameter("ans3");

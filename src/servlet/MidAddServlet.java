@@ -18,6 +18,7 @@ import java.util.logging.Logger;
 @WebServlet("/MidAddServlet")
 public class MidAddServlet extends HttpServlet {
 
+    //
     public static final Logger logger = Logger.getLogger(MidAddServlet.class.getName());
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         int examId = Integer.parseInt(request.getParameter("examId"));

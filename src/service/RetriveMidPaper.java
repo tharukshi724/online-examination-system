@@ -17,7 +17,7 @@ public class RetriveMidPaper {
     public static final Logger logger = Logger.getLogger(RetriveMidPaper.class.getName());
     static Connection connection;
     public static List<Mid> getPaper(String subject) throws SQLException, ClassNotFoundException {
-
+//
         List<Mid> list1 = new ArrayList<>();
         System.out.println("service"+subject);
         connection = DBConnection.getConnection();

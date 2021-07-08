@@ -11,6 +11,7 @@ public class Mid {
     String ans4;
     String correctAns;
 
+    //
     public Mid(int questionId, int examId,String subject, String question, String ans1, String ans2, String ans3, String ans4, String correctAns) {
         this.questionId = questionId;
         this.examId = examId;

@@ -20,7 +20,7 @@ public class StoreMarks {
     private static Connection connection;
 
     public static void insertMarks(Marks marks) throws SQLException {
-
+//
         try {
             connection = DBConnection.getConnection();
             PreparedStatement preparedStatement = connection.prepareStatement("INSERT INTO marks" + " (studentId,grade)VALUES " + " (?,?)");

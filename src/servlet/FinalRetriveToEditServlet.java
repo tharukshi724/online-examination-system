@@ -19,7 +19,7 @@ public class FinalRetriveToEditServlet extends HttpServlet {
     public static final Logger logger = Logger.getLogger(FinalRetriveToEditServlet.class.getName());
 
     private FinalExamService fins;
-
+//
     public void init() {
         this.fins = new FinalExamService();
     }

@@ -12,7 +12,7 @@ import java.util.logging.Logger;
 public class examDetailsService {
     public static final Logger logger = Logger.getLogger(examDetailsService.class.getName());
     static Connection connection;
-    // method for insert payments
+    // method for insert payment//
     public static void addExamDetails(examDetails exdetails) throws SQLException {
 
         try{

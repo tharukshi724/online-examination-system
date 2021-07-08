@@ -18,7 +18,7 @@ public class FinalExamService {
     static Connection connection;
     // method for insert payments
     public static void addFinalQ(Final fina)throws SQLException {
-
+//
         try{
             connection = DBConnection.getConnection();
             PreparedStatement preparedStatement = connection.prepareStatement("INSERT INTO Final"+" (fexamId,subject,fquestion,fcorrectAns)VALUES "+" (?,?,?,?)");

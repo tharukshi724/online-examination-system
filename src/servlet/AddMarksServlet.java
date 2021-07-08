@@ -14,7 +14,7 @@ import java.util.logging.Logger;
 
 @WebServlet("/AddMarksServlet")
 public class AddMarksServlet extends HttpServlet {
-
+//
     public static final Logger logger = Logger.getLogger(AddMarksServlet.class.getName());
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
             String studentId = request.getParameter("studentId");

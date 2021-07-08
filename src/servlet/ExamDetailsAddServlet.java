@@ -20,7 +20,7 @@ public class ExamDetailsAddServlet extends HttpServlet {
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String examName = request.getParameter("examName");
-
+//
         String subject = request.getParameter("subject");
 
         Date date=  Date.valueOf(request.getParameter("date"));

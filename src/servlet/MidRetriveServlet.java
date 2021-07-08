@@ -21,7 +21,7 @@ public class MidRetriveServlet extends HttpServlet {
     public static final Logger logger = Logger.getLogger(MidRetriveServlet.class.getName());
     private static final long serialVersionUID = 1L;
 
-
+//
     private midExamService mids;
 
     public void init() {
